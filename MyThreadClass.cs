@@ -13,6 +13,7 @@ namespace BasicThreading
             {
                 Console.WriteLine("Name of Thread: \n" + thread.Name + " Process = " + LoopCount);
                 Thread.Sleep(1500);
+                // 1.5 seconds
             }
 
             if (thread.Name == "Thread A")
