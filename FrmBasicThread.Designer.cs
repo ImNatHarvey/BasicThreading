@@ -33,7 +33,6 @@
             // 
             // lblStatus
             // 
-            lblStatus.AutoSize = true;
             lblStatus.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblStatus.Location = new Point(62, 84);
             lblStatus.Margin = new Padding(4, 0, 4, 0);
@@ -41,6 +40,7 @@
             lblStatus.Size = new Size(233, 25);
             lblStatus.TabIndex = 1;
             lblStatus.Text = "-Before starting thread-";
+            lblStatus.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FrmBasicThread
             // 
@@ -53,7 +53,6 @@
             Name = "FrmBasicThread";
             Text = "BasicThread";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         private System.Windows.Forms.Button btnRun;

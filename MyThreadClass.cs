@@ -15,15 +15,6 @@ namespace BasicThreading
                 Thread.Sleep(1500);
                 // 1.5 seconds
             }
-
-            if (thread.Name == "Thread A")
-            {
-                Console.WriteLine("The thread 0x2e38 has exited with code 0 (0x0).");
-            }
-            else if (thread.Name == "Thread B")
-            {
-                Console.WriteLine("The thread 0x14a0 has exited with code 0 (0x0).");
-            }
         }
     }
 }
